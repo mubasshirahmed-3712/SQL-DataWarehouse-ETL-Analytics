@@ -37,6 +37,15 @@ This project solves that problem by:
 
 ---
 
+### 🔄 Data Flow & Lineage
+
+This diagram illustrates the **flow of data from source systems (CRM & ERP) through the Medallion layers**, showing lineage and transformations across Bronze, Silver, and Gold layers.
+
+📌 *Diagram reference:
+
+![Data Flow & Lineage](docs/data_flow.jpg)
+
+---
 ## 📂 Data Modeling – Star Schema
 
 The **Gold Layer** is structured in a **Star Schema** for efficient analytics:
