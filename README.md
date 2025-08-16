@@ -1,5 +1,11 @@
 # SQL Server Data Warehouse & ETL – Retail Analytics (Medallion Architecture) 🚀
 
+![SQL Server](https://img.shields.io/badge/SQL%20Server-Analytics-blue?logo=microsoftsqlserver&logoColor=white)
+![ETL Pipeline](https://img.shields.io/badge/ETL-Data%20Warehouse-orange)
+![Analytics](https://img.shields.io/badge/SQL-Analytics-green)
+![Reports](https://img.shields.io/badge/Business-Reports-yellow)
+![Project](https://img.shields.io/badge/Project-Case%20Study-red)
+
 ## 📌 TL;DR / Key Impact
 
 Transformed fragmented CRM & ERP retail data into a **unified, analyst-ready Data Warehouse** using **SQL Server** and **Medallion Architecture (Bronze → Silver → Gold)**.
