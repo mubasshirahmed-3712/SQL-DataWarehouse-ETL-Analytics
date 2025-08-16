@@ -71,6 +71,7 @@ CRM & ERP integration modeled as:
 - `PRODUCT` entity integrates CRM + ERP product data
 
 📌 *Diagram reference: CRM–ERP integration process*
+![Integration Process](docs/integration_process.jpg)
 
 ---
 
@@ -89,6 +90,10 @@ CRM & ERP integration modeled as:
 - Used **BULK INSERT** for efficient loading
 - Applied **indexes** on keys for faster joins
 - Partitioned large fact tables (optional for scaling)
+
+📌 *Diagram reference: Visualize the ETL steps per Medallion layer.*
+![ETL Process](docs/etl_process.jpg)
+
 
 ---
 
