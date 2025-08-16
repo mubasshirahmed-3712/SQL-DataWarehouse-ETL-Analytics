@@ -1,4 +1,4 @@
-# SQL Server Data Warehouse ETL & Analytics – Retail Case Study
+# SQL Server Data Warehouse & ETL – Retail Analytics (Medallion Architecture)
 
 ## 📌 Project Overview
 
@@ -33,7 +33,7 @@ This project solves that problem by:
 
 📌 *Diagram reference: Medallion architecture pipeline (bronze → silver → gold)*
 
-![Architecture Diagram](docs/architecture_diagram.jpg)
+<img src="docs/architecture_diagram.jpg" alt="Architecture Diagram" width="800"/>
 
 ---
 
@@ -43,7 +43,7 @@ This diagram illustrates the **flow of data from source systems (CRM & ERP) thro
 
 📌 *Diagram reference:
 
-![Data Flow & Lineage](docs/data_flow.jpg)
+<img src="docs/data_flow.jpg" alt="Data Flow & Lineage" width="800"/>
 
 ---
 ## 📂 Data Modeling – Star Schema
@@ -63,7 +63,7 @@ The **Gold Layer** is structured in a **Star Schema** for efficient analytics:
 
 📌 *Diagram reference: Star Schema model*
 
-![Data Model](docs/data_model.jpg)
+<img src="docs/data_model.jpg" alt="Star Schema" width="800"/>
 
 ---
 
@@ -80,8 +80,7 @@ CRM & ERP integration modeled as:
 - `PRODUCT` entity integrates CRM + ERP product data
 
 📌 *Diagram reference: CRM–ERP integration process*
-![Integration Process](docs/integration_process.jpg)
-
+<img src="docs/integration_process.jpg" alt="Integration Process" width="800"/>
 ---
 
 ## ⚙️ ETL Process
@@ -101,8 +100,7 @@ CRM & ERP integration modeled as:
 - Partitioned large fact tables (optional for scaling)
 
 📌 *Diagram reference: Visualize the ETL steps per Medallion layer.*
-![ETL Process](docs/etl_process.jpg)
-
+<img src="docs/etl_process.jpg" alt="ETL Process" width="800"/>
 
 ---
 
@@ -116,6 +114,10 @@ From the **Gold Layer**, the following KPIs and insights are generated:
 - **Repeat Purchase Rate by Customer**
 - **Customer Segmentation by Country & Demographics**
 - **Sales Trends (Monthly/Quarterly)**
+
+``` 
+“The Gold Layer also enables predictive modeling use cases, e.g., churn prediction, demand forecasting, and customer segmentation using ML.”
+```
 
 📌 *Diagram reference: Power BI / SQL query output samples*
 
