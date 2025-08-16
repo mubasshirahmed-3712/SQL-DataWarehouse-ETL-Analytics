@@ -10,6 +10,17 @@ Transformed fragmented CRM & ERP retail data into a **unified, analyst-ready Dat
 
 ---
 
+> 📢 **Project Series Connection**  
+This repository is **Part 1 of a 2-phase project**:  
+- **Part 1 → [SQL-DataWarehouse-ETL-Analytics](https://github.com/mubasshirahmed-3712/SQL-DataWarehouse-ETL-Analytics)**  
+   - Builds the Data Warehouse with Medallion Architecture (Bronze → Silver → Gold)  
+   - Delivers clean, unified, and analytics-ready data  
+- **Part 2 → [SQL-DataWarehouse-Analytics-Reports](https://github.com/mubasshirahmed-3712/SQL-DataWarehouse-Analytics-Reports)**  
+   - Performs EDA & advanced SQL analytics  
+   - Generates quantified insights and business reports from the Gold Layer  
+
+---
+
 ## 🎯 Project Overview
 
 Retail businesses often struggle with **siloed customer, product, and sales data** across CRM & ERP systems.
@@ -131,6 +142,10 @@ Gold Layer supports **reporting & predictive analytics**:
 </p>
 *Figure 6: Sample Power BI dashboard showing key KPIs*
 
+
+> 💡 Note: The **deep-dive analytics, quantified KPIs, and reporting** are continued in the companion repo  
+> [SQL-DataWarehouse-Analytics-Reports](https://github.com/mubasshirahmed-3712/SQL-DataWarehouse-Analytics-Reports).
+
 ---
 
 ## 📂 Runbook – How to Run
@@ -143,6 +158,10 @@ Gold Layer supports **reporting & predictive analytics**:
    - `scripts/gold_star_schema.sql`
 4. Run `scripts/analytics_queries.sql` for KPIs
 5. (Optional) Connect to Power BI / Tableau
+6. (Optional) Continue to Part 2:  
+   Once Gold Layer is built, proceed to the companion repo **[SQL-DataWarehouse-Analytics-Reports](https://github.com/mubasshirahmed-3712/SQL-DataWarehouse-Analytics-Reports)**  
+   to explore EDA, advanced SQL analytics, and reporting built directly on top of this Data Warehouse.
+
 
 ---
 
